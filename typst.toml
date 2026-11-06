@@ -1,0 +1,22 @@
+[package]
+name = "phy-uniba"
+version = "0.1.0"
+entrypoint = "src/lib.typ"
+authors = ["arasaka"]
+licence = "MIT"
+description = "unofficial thesis template for the physics department of the University of Bari"
+keywords = [""]
+categories = [
+    "report",
+    "paper",
+    "thesis",
+]
+disciplines = ["physics"]
+compiler = "0.14"
+
+[template]
+path = "template"
+entrypoint = "tesi.typ"
+thumbnail = "thumbnail.png"
+
+[tool]
